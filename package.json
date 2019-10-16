@@ -1,0 +1,25 @@
+{
+  "name": "slack-slash-trains",
+  "version": "0.0.1",
+  "description": "A Slack slash handler to output live departure boards from National Rail feeds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmbuckley/home.git"
+  },
+  "author": "Chris Buckley <chris@cmbuckley.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmbuckley/home/issues"
+  },
+  "homepage": "https://github.com/cmbuckley/home#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "national-rail-darwin-promise": "^1.0.2",
+    "neat-csv": "^5.1.0",
+    "slack-slash-fastify": "0.0.3"
+  }
+}
