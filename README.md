@@ -5,7 +5,7 @@ A Slack slash handler to output live departure boards from National Rail feeds.
 
 First, [register for OpenLDBWS](http://realtime.nationalrail.co.uk/OpenLDBWSRegistration/) to obtain a token for Darwin.
 
-Then, [create a Slack app](https://api.slack.com/apps) adn set up a Slash Command for `/train`. Grab the signing secret while you’re there.
+Then, [create a Slack app](https://api.slack.com/apps) and set up a Slash Command for `/train`. Grab the signing secret while you’re there.
 
 Then create a `.env` file with the following:
 
