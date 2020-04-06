@@ -1,0 +1,33 @@
+title: Chris Buckley
+description: Convert any input to UTF-8 by detecting its encoding.
+
+url: https://cmbuckley.co.uk
+baseurl: /toutf8
+
+remote_theme: "cmbuckley/cmbuckley.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+navigation:
+ - title: Home
+   url: /
+ - title: CV
+   url: /cv/
+ - title: Contact
+   url: /contact/
+ - title: Blog
+   url: /blog/
+ - title: Interests
+   url: /interests/
+ - title: Projects
+   url: /projects/
+
+social:
+   github:    cmbuckley
+   linkedin:  cmbuckley
+   email:     chris@cmbuckley.co.uk
+   twitter:   _cmbuckley
+   facebook:  cmbuckley
+   instagram: c.m.buckley
+   amazon:    https://bux.re/amzn
