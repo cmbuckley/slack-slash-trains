@@ -2,7 +2,7 @@ title: Chris Buckley
 description: A Slack slash handler to output live departure boards from National Rail feeds.
 
 url: https://cmbuckley.co.uk
-baseurl: /toutf8
+baseurl: /slack-slash-trains
 
 remote_theme: "cmbuckley/cmbuckley.github.io"
 
