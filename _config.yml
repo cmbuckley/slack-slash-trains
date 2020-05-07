@@ -1,5 +1,5 @@
 title: Chris Buckley
-description: Convert any input to UTF-8 by detecting its encoding.
+description: A Slack slash handler to output live departure boards from National Rail feeds.
 
 url: https://cmbuckley.co.uk
 baseurl: /toutf8
