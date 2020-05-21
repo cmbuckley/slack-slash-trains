@@ -4,7 +4,12 @@ description: A Slack slash handler to output live departure boards from National
 url: https://cmbuckley.co.uk
 baseurl: /slack-slash-trains
 
+repository: cmbuckley/slack-slash-trains
 remote_theme: "cmbuckley/cmbuckley.github.io"
+
+plugins:
+  - jekyll-github-metadata
+  - jekyll-remote-theme
 
 markdown: kramdown
 highlighter: rouge
