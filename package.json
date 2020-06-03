@@ -3,19 +3,20 @@
   "version": "0.0.1",
   "description": "A Slack slash handler to output live departure boards from National Rail feeds",
   "main": "index.js",
+  "config": {
+    "stations": "https://www.nationalrail.co.uk/static/documents/content/station_codes.csv"
+  },
   "scripts": {
+    "stations": "curl -Ss $npm_package_config_stations > config/station_codes.csv",
     "start": "node index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cmbuckley/home.git"
-  },
+  "repository": "cmbuckley/slack-slash-trains",
   "author": "Chris Buckley <chris@cmbuckley.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cmbuckley/home/issues"
+    "url": "https://github.com/cmbuckley/slack-slash-trains/issues"
   },
-  "homepage": "https://github.com/cmbuckley/home#readme",
+  "homepage": "https://cmbuckley.co.uk/slack-slash-trains/",
   "dependencies": {
     "dotenv": "^8.1.0",
     "national-rail-darwin-promise": "^1.0.2",
