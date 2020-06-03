@@ -18,4 +18,4 @@ SLACK_SIGNING_SECRET=slacksecret
 DARWIN_TOKEN=darwintoken
 ```
 
-The station codes can be updated from [the National Rail website](https://www.nationalrail.co.uk/stations_destinations/48541.aspx).
+The station codes can be updated from [the National Rail website](https://www.nationalrail.co.uk/stations_destinations/48541.aspx) or running `npm run stations`.
