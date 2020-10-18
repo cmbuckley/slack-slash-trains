@@ -13,3 +13,8 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
