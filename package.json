@@ -18,7 +18,7 @@
   },
   "homepage": "https://cmbuckley.co.uk/slack-slash-trains/",
   "dependencies": {
-    "dotenv": "^8.1.0",
+    "dotenv": "^16.0.1",
     "national-rail-darwin-promise": "^1.0.2",
     "neat-csv": "^5.1.0",
     "slack-slash-fastify": "0.0.3"
