@@ -21,6 +21,6 @@
     "dotenv": "^16.0.1",
     "national-rail-darwin-promise": "^1.0.2",
     "neat-csv": "^7.0.0",
-    "slack-slash-fastify": "2.0.1"
+    "slack-slash-fastify": "3.0.0"
   }
 }
