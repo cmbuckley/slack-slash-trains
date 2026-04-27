@@ -1,0 +1,22 @@
+name: Deploy Jekyll site to Pages
+on:
+  push:
+    branches: gh-pages
+  repository_dispatch:
+    types: [pages]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  pages:
+    uses: cmbuckley/.github/.github/workflows/pages.yml@main
+    secrets: inherit
+    with:
+      ref: gh-pages
